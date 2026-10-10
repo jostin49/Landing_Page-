@@ -77,3 +77,9 @@ El servidor de pruebas local se ejecuta en:
 👉 **`http://localhost:4321`**
 
 O abriendo directamente el archivo [index.html](file:///c:/Users/Usuario/Desktop/Landig_page/index.html) en cualquier navegador moderno.
+
+
+## Rastreo de órdenes
+
+La sección de rastreo permite consultar el estado de una orden
+mediante la información de seguimiento disponible en el sistema.
