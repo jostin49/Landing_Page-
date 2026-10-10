@@ -12,24 +12,32 @@
   --bg-glass: rgba(255, 255, 255, 0.85);
 
   /* Primary Brand Accents - Modern Cobalt & Tech Blue */
-  --primary: #1e40af;            /* Deep Blue */
-  --primary-light: #2563eb;      /* Vivid Royal Blue */
-  --primary-subtle: #eff6ff;     /* 50 Blue */
+  --primary: #1e40af;
+  /* Deep Blue */
+  --primary-light: #7c3aed;
+  /* Vivid Royal Blue */
+  --primary-subtle: #eff6ff;
+  /* 50 Blue */
   --primary-glow: rgba(37, 99, 235, 0.15);
 
-  --secondary: #0284c7;          /* Sky 600 */
+  --secondary: #0284c7;
+  /* Sky 600 */
   --secondary-subtle: #f0f9ff;
 
-  --accent-purple: #6366f1;       /* Indigo */
+  --accent-purple: #6366f1;
+  /* Indigo */
   --accent-purple-subtle: #eef2ff;
 
-  --accent-success: #059669;      /* Emerald */
+  --accent-success: #059669;
+  /* Emerald */
   --accent-success-subtle: #ecfdf5;
 
-  --accent-warning: #d97706;      /* Amber */
+  --accent-warning: #d97706;
+  /* Amber */
   --accent-warning-subtle: #fffbeb;
 
-  --accent-danger: #dc2626;       /* Red */
+  --accent-danger: #dc2626;
+  /* Red */
   --accent-danger-subtle: #fef2f2;
 
   /* Gradients */
@@ -39,14 +47,20 @@
   --gradient-hero: linear-gradient(135deg, #f8fafc 0%, #eff6ff 50%, #f1f5f9 100%);
 
   /* Text Hierarchy */
-  --text-main: #0f172a;           /* Slate 900 */
-  --text-muted: #475569;          /* Slate 600 */
-  --text-dim: #64748b;            /* Slate 500 */
-  --text-highlight: #1d4ed8;      /* Blue 700 */
+  --text-main: #0f172a;
+  /* Slate 900 */
+  --text-muted: #475569;
+  /* Slate 600 */
+  --text-dim: #64748b;
+  /* Slate 500 */
+  --text-highlight: #1d4ed8;
+  /* Blue 700 */
 
   /* Borders & Dividers */
-  --border-subtle: #e2e8f0;       /* Slate 200 */
-  --border-medium: #cbd5e1;       /* Slate 300 */
+  --border-subtle: #e2e8f0;
+  /* Slate 200 */
+  --border-medium: #cbd5e1;
+  /* Slate 300 */
   --border-focus: #2563eb;
 
   /* Shadows - Elevation */
