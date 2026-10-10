@@ -1,0 +1,73 @@
+/* ==========================================================================
+   NEXUS PC & TECH LAB - Professional Light Theme System
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Light Theme Clean & Corporate */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-card-hover: #ffffff;
+  --bg-glass: rgba(255, 255, 255, 0.85);
+
+  /* Primary Brand Accents - Modern Cobalt & Tech Blue */
+  --primary: #1e40af;            /* Deep Blue */
+  --primary-light: #2563eb;      /* Vivid Royal Blue */
+  --primary-subtle: #eff6ff;     /* 50 Blue */
+  --primary-glow: rgba(37, 99, 235, 0.15);
+
+  --secondary: #0284c7;          /* Sky 600 */
+  --secondary-subtle: #f0f9ff;
+
+  --accent-purple: #6366f1;       /* Indigo */
+  --accent-purple-subtle: #eef2ff;
+
+  --accent-success: #059669;      /* Emerald */
+  --accent-success-subtle: #ecfdf5;
+
+  --accent-warning: #d97706;      /* Amber */
+  --accent-warning-subtle: #fffbeb;
+
+  --accent-danger: #dc2626;       /* Red */
+  --accent-danger-subtle: #fef2f2;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+  --gradient-accent: linear-gradient(135deg, #2563eb 0%, #0284c7 100%);
+  --gradient-subtle: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  --gradient-hero: linear-gradient(135deg, #f8fafc 0%, #eff6ff 50%, #f1f5f9 100%);
+
+  /* Text Hierarchy */
+  --text-main: #0f172a;           /* Slate 900 */
+  --text-muted: #475569;          /* Slate 600 */
+  --text-dim: #64748b;            /* Slate 500 */
+  --text-highlight: #1d4ed8;      /* Blue 700 */
+
+  /* Borders & Dividers */
+  --border-subtle: #e2e8f0;       /* Slate 200 */
+  --border-medium: #cbd5e1;       /* Slate 300 */
+  --border-focus: #2563eb;
+
+  /* Shadows - Elevation */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.08), 0 1px 2px -1px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+  --shadow-lg: 0 12px 24px -4px rgba(15, 23, 42, 0.09), 0 4px 8px -2px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 20px 30px -6px rgba(15, 23, 42, 0.12), 0 8px 12px -4px rgba(15, 23, 42, 0.06);
+
+  /* Typography */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Layout & Radii */
+  --max-width: 1240px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  --transition-fast: 0.15s ease-in-out;
+  --transition-normal: 0.25s ease-in-out;
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
