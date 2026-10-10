@@ -61,7 +61,7 @@ function updateCalculation() {
   const urgencyData = REPAIR_DATA.urgencies[currentUrgency] || REPAIR_DATA.urgencies.standard;
 
   // Base estimate formula
-  const rawMin = Math.round((deviceData.baseCost - issueData.cost) * urgencyData.multiplier);
+  const rawMin = Math.round((deviceData.baseCost + issueData.cost) * urgencyData.multiplier);
   const rawMax = Math.round(rawMin * 1.35);
 
   // Update elements
