@@ -94,7 +94,7 @@ const PRODUCTS_DATA = [
     badge: "Combo Pro",
     badgeClass: "badge-gamer",
     specs: ["Switches Hot-Swap Lineales", "Conexión Inalámbrica 2.4GHz", "Iluminación RGB por tecla", "Sensor Óptico PixArt"],
-    price: 119,
+    price: 0,
     oldPrice: 149,
     image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=700&q=80",
     description: "Combo ergonómico diseñado para largas sesiones de juego y trabajo de oficina con latencia casi nula."
